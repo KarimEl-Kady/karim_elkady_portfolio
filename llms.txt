@@ -1,0 +1,11 @@
+# Karim El-Kady
+
+> PHP and Laravel backend developer based in Mansoura, Egypt.
+
+Karim builds backend systems, APIs, web platforms and applications. His portfolio includes educational, medical, e-commerce, housing and workplace safety products.
+
+- [Portfolio](https://karimel-kady.online/)
+- [Selected work](https://karimel-kady.online/#selected-work)
+- [Experience](https://karimel-kady.online/#experience)
+- [LinkedIn](https://www.linkedin.com/in/karimel-kady)
+- [GitHub](https://github.com/KarimEl-Kady)

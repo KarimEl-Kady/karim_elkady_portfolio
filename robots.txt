@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://karimel-kady.online/sitemap.xml
