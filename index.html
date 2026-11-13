@@ -3,23 +3,23 @@
 <html class="light scroll-smooth" lang="en"><head>
 <meta charset="utf-8"/>
 <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<title>Karim El-Kady | PHP &amp; Laravel Backend Developer in Egypt</title>
-<meta name="description" content="Karim El-Kady, also known as Karim Elkady or Karim El Kady, is a PHP and Laravel backend developer in Mansoura, Egypt, building APIs and web applications."/>
+<title>Karim El-Kady | Laravel &amp; Backend Software Engineer</title>
+<meta name="description" content="Karim El-Kady is a PHP and Laravel backend developer in Mansoura, Egypt, building APIs and web applications and sharing open-source projects."/>
 <meta name="robots" content="index, follow"/>
 <link rel="canonical" href="https://karimel-kady.online/"/>
 <meta name="geo.region" content="EG-DK"/>
 <meta name="geo.placename" content="Mansoura, Egypt"/>
 <meta property="og:type" content="website"/>
 <meta property="og:url" content="https://karimel-kady.online/"/>
-<meta property="og:title" content="Karim El-Kady | PHP &amp; Laravel Backend Developer in Egypt"/>
-<meta property="og:description" content="Karim El-Kady, also known as Karim Elkady or Karim El Kady, is a PHP and Laravel backend developer in Mansoura, Egypt, building APIs and web applications."/>
+<meta property="og:title" content="Karim El-Kady | Laravel &amp; Backend Software Engineer"/>
+<meta property="og:description" content="Karim El-Kady is a PHP and Laravel backend developer in Mansoura, Egypt, building APIs and web applications and sharing open-source projects."/>
 <meta property="og:image" content="https://karimel-kady.online/og-image.png"/>
 <meta property="og:image:width" content="1200"/>
 <meta property="og:image:height" content="630"/>
 <meta property="og:image:alt" content="Karim El-Kady, PHP and Laravel backend developer in Mansoura, Egypt"/>
 <meta name="twitter:card" content="summary_large_image"/>
-<meta name="twitter:title" content="Karim El-Kady | PHP &amp; Laravel Backend Developer in Egypt"/>
-<meta name="twitter:description" content="Karim El-Kady, also known as Karim Elkady or Karim El Kady, is a PHP and Laravel backend developer in Mansoura, Egypt, building APIs and web applications."/>
+<meta name="twitter:title" content="Karim El-Kady | Laravel &amp; Backend Software Engineer"/>
+<meta name="twitter:description" content="Karim El-Kady is a PHP and Laravel backend developer in Mansoura, Egypt, building APIs and web applications and sharing open-source projects."/>
 <meta name="twitter:image" content="https://karimel-kady.online/og-image.png"/>
 <meta name="twitter:image:alt" content="Karim El-Kady, PHP and Laravel backend developer in Mansoura, Egypt"/>
 <link rel="icon" href="/favicon.ico" sizes="any"/>
@@ -70,8 +70,8 @@
       "@type": "ProfilePage",
       "@id": "https://karimel-kady.online/#webpage",
       "url": "https://karimel-kady.online/",
-      "name": "Karim El-Kady | PHP & Laravel Backend Developer in Egypt",
-      "description": "Karim El-Kady, also known as Karim Elkady or Karim El Kady, is a PHP and Laravel backend developer in Mansoura, Egypt, building APIs and web applications.",
+      "name": "Karim El-Kady | Laravel & Backend Software Engineer",
+      "description": "Karim El-Kady is a PHP and Laravel backend developer in Mansoura, Egypt, building APIs and web applications and sharing open-source projects.",
       "isPartOf": {
         "@id": "https://karimel-kady.online/#website"
       },
@@ -355,11 +355,16 @@
             background-size: 24px 24px;
         }
 
-        .fade-in-up {
-            opacity: 0;
-            transform: translateY(20px);
-            transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+        .fade-in-up { opacity: 1; transform: none; }
+        :focus-visible { outline: 3px solid #006c63; outline-offset: 3px; }
+        @media (prefers-reduced-motion: reduce) {
+            html { scroll-behavior: auto !important; }
+            *, *::before, *::after { animation-duration: 0.01ms !important; transition-duration: 0.01ms !important; }
         }
+        @media (max-width: 767px) {
+            .mobile-nav { display: flex; gap: 1rem; overflow-x: auto; padding: 0 1.25rem 1rem; white-space: nowrap; }
+        }
+        @media (min-width: 768px) { .mobile-nav { display: none; } }
         
         .fade-in-up.visible {
             opacity: 1;
@@ -379,23 +384,6 @@
             background-color: #0d9488;
         }
     </style>
-<noscript><style>.fade-in-up { opacity: 1; transform: none; }</style></noscript>
-<script>
-        document.addEventListener('DOMContentLoaded', () => {
-            const observer = new IntersectionObserver((entries) => {
-                entries.forEach(entry => {
-                    if (entry.isIntersecting) {
-                        entry.target.classList.add('visible');
-                    }
-                });
-            }, { threshold: 0.1 });
-
-            document.querySelectorAll('.fade-in-up').forEach((el) => {
-                observer.observe(el);
-            });
-        });
-
-    </script>
 </head>
 <body class="bg-surface text-on-surface font-body-md antialiased selection:bg-tertiary-fixed selection:text-on-tertiary-fixed">
 <a href="#main-content" class="sr-only focus:not-sr-only focus:fixed focus:top-2 focus:left-2 focus:z-[100] focus:bg-white focus:p-4 focus:text-black">Skip to content</a>
@@ -405,12 +393,16 @@
 <a class="font-headline-md text-headline-md font-bold text-primary dark:text-on-surface tracking-tight" href="/">Karim El-Kady</a>
 <div class="hidden md:flex gap-8 items-center">
 <a class="text-secondary dark:text-on-secondary-fixed-variant hover:text-primary dark:hover:text-on-surface transition-colors duration-200 cursor-pointer active:opacity-70" href="#selected-work">Selected Work</a>
+<a class="text-secondary dark:text-on-secondary-fixed-variant hover:text-primary dark:hover:text-on-surface transition-colors duration-200 cursor-pointer active:opacity-70" href="#open-source">Open Source</a>
 <a class="text-secondary dark:text-on-secondary-fixed-variant hover:text-primary dark:hover:text-on-surface transition-colors duration-200 cursor-pointer active:opacity-70" href="#experience">Experience</a>
 <a class="text-secondary dark:text-on-secondary-fixed-variant hover:text-primary dark:hover:text-on-surface transition-colors duration-200 cursor-pointer active:opacity-70" href="#capabilities">Capabilities</a>
 <a class="text-secondary dark:text-on-secondary-fixed-variant hover:text-primary dark:hover:text-on-surface transition-colors duration-200 cursor-pointer active:opacity-70" href="#about">About</a>
 <a class="text-secondary dark:text-on-secondary-fixed-variant hover:text-primary dark:hover:text-on-surface transition-colors duration-200 cursor-pointer active:opacity-70" href="#contact">Contact</a>
 </div>
 <a class="hidden md:inline-block bg-primary text-on-primary px-6 py-2 rounded font-mono-label text-mono-label uppercase tracking-widest hover:bg-tertiary-container transition-colors" href="#contact">Get In Touch</a>
+</div>
+<div class="mobile-nav" aria-label="Mobile navigation">
+<a href="#selected-work">Work</a><a href="#open-source">Open source</a><a href="#experience">Experience</a><a href="#about">About</a><a href="#contact">Contact</a>
 </div>
 </nav>
 <main id="main-content">
@@ -597,6 +589,17 @@
 </div>
 </div>
 </section>
+<!-- Public repositories, described from their READMEs -->
+<section class="py-24 border-b border-outline-variant" id="open-source">
+<div class="w-full max-w-max_width mx-auto px-5 md:px-12">
+<div class="flex flex-col md:flex-row justify-between items-baseline mb-12 border-b border-outline-variant pb-4"><h2 class="font-headline-md text-headline-md text-primary">Open Source</h2><span class="font-mono-label text-secondary uppercase tracking-widest">[ PUBLIC REPOSITORIES ]</span></div>
+<p class="font-body-md text-on-surface-variant max-w-2xl mb-8">Selected public code and documentation for Laravel applications and coding-agent workflows. Explore each repository for its current status and usage.</p>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+<article class="border border-outline-variant p-8 bg-surface-container-lowest"><h3 class="font-headline-md text-xl text-primary mb-4"><a href="https://github.com/KarimEl-Kady/activity-logger">Laravel Activity Logger</a></h3><p>Laravel package using model traits and observers to record model lifecycle actions, with guard-aware attribution and filterable reports.</p></article>
+<article class="border border-outline-variant p-8 bg-surface-container-lowest"><h3 class="font-headline-md text-xl text-primary mb-4"><a href="https://github.com/KarimEl-Kady/proj-base">Proj-Base</a></h3><p>A modular Laravel application foundation for web and API projects, with HMVC modules, tests, Docker and deployment documentation.</p></article>
+<article class="border border-outline-variant p-8 bg-surface-container-lowest"><h3 class="font-headline-md text-xl text-primary mb-4"><a href="https://github.com/KarimEl-Kady/base-settings">Base Settings</a></h3><p>A reusable settings package for proj-base, supporting typed global and per-owner values with read caching.</p></article>
+<article class="border border-outline-variant p-8 bg-surface-container-lowest"><h3 class="font-headline-md text-xl text-primary mb-4"><a href="https://github.com/KarimEl-Kady/quota-guard-skill">Quota Guard</a></h3><p>An AI coding agent skill for warnings and handoffs based on available session or quota information; host integrations have different capabilities.</p></article>
+</div></div></section>
 <!-- Experience -->
 <section class="py-24 border-b border-outline-variant bg-surface-container-lowest" id="experience">
 <div class="w-full max-w-max_width mx-auto px-5 md:px-12 grid grid-cols-1 md:grid-cols-12 gap-x-gutter fade-in-up">
